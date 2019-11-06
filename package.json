@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "workspaces": [
+    "demo",
+    "gatsby-theme-cart"
+  ],
+  "scripts": {
+    "build": "yarn workspace demo build",
+    "dev": "yarn workspace demo dev"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "prettier": "1.18.2",
+    "semantic-release": "15.13.27"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "gatsby-theme-cart"
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  }
+}

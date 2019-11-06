@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-theme-cart",
+  "version": "0.1.0",
+  "description": "A drop-in shopping cart theme for Gatsby",
+  "main": "index.js",
+  "author": "Jamie Barton <jamie@notrab.dev> (https://twitter.com/notrab)",
+  "license": "MIT",
+  "repository": "notrab/gatsby-theme-cart",
+  "dependencies": {
+    "react-use-cart": "latest"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.17",
+    "react": "^16.10",
+    "react-dom": "^16.10"
+  },
+  "devDependencies": {
+    "gatsby": "^2.17",
+    "react": "^16.10",
+    "react-dom": "^16.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
