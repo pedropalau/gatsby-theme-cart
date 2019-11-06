@@ -10276,10 +10276,10 @@ react-reconciler@^0.21.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
-react-use-cart@^0.1.6, react-use-cart@latest:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/react-use-cart/-/react-use-cart-0.1.6.tgz#4dbc41f2567bb58d18be95f18c650513b4026cb0"
-  integrity sha512-rUU+PTapNbNSO7YaAhU37e56L6CxTgJ9Nv0+rkie3ydbk2AyJB9brIv1/7d6r0zf2tK+8RLSRbZJauG1koL0aA==
+react-use-cart@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/react-use-cart/-/react-use-cart-0.1.8.tgz#fb77fb7f1a34813ddf818283f5ce251a5f3df1f2"
+  integrity sha512-r5RZownKvy80iXSry+xAoGXMLbRnCDdlQH6Sz6Omw43YgS9kOCDXCioGb0BNu6TDgaQoSzBFDaMJYftFUc/TQg==
   dependencies:
     react-use-localstorage "3.3.2"
 

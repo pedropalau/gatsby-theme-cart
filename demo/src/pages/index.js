@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { useCart } from 'react-use-cart'
+import { useCart } from 'gatsby-theme-cart'
 
 export default function IndexPage() {
   const { products } = useStaticQuery(graphql`

@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": "notrab/gatsby-theme-cart",
   "dependencies": {
-    "react-use-cart": "latest"
+    "react-use-cart": "0.1.8"
   },
   "peerDependencies": {
     "gatsby": "^2.17",
