@@ -10276,17 +10276,10 @@ react-reconciler@^0.21.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
-react-use-cart@0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/react-use-cart/-/react-use-cart-0.1.8.tgz#fb77fb7f1a34813ddf818283f5ce251a5f3df1f2"
-  integrity sha512-r5RZownKvy80iXSry+xAoGXMLbRnCDdlQH6Sz6Omw43YgS9kOCDXCioGb0BNu6TDgaQoSzBFDaMJYftFUc/TQg==
-  dependencies:
-    react-use-localstorage "3.3.2"
-
-react-use-localstorage@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/react-use-localstorage/-/react-use-localstorage-3.3.2.tgz#184ab0a442772e1ed8cc82de291845bab00fb98f"
-  integrity sha512-5pVtbOYBjZm4rIKaPYyBl9w8fe8ZbspschHv61UCLftYhhwKVF01XeEvBQuaXzBXFhiCzS7/qV56oJvfuPF3Pw==
+react-use-cart@0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/react-use-cart/-/react-use-cart-0.1.9.tgz#1e1a9cd0987db2705d76d820424dff773c59eefc"
+  integrity sha512-w82nVYp0Amhcvv406F05dAp5lmuNMqYz6G5HFwO+Xm/yl9dolvU+Uc3jmcQkIzHupRs+7q0ZFdxTT/DUkrN91g==
 
 react@16.10.2, react@^16.10, react@^16.10.2:
   version "16.10.2"
