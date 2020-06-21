@@ -3,5 +3,7 @@
   "automerge": true,
   "major": {
     "automerge": false
-  }
+  },
+  "semanticCommits": true,
+  "ignorePresets": [":semanticPrefixFixDepsChoreOthers"]
 }

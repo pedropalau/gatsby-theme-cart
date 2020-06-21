@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-sans antialiased;
+}
+
+.cart-item-list {
+  @apply border border-gray-300;
+}
+
+.cart-item-list .cart-list-item {
+  @apply border-b border-gray-300 flex items-center p-3;
+}
+
+.cart-item-list .cart-list-item:last {
+  @apply border-b-0;
+}
+
+.cart-item-list .cart-list-item--name {
+  @apply flex-1;
+}
+
+.cart-item-list .cart-list-item--quantity {
+  @apply w-1/5;
+}

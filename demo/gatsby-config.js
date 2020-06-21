@@ -8,5 +8,6 @@ module.exports = {
         path: './data/',
       },
     },
+    'gatsby-plugin-postcss',
   ],
 }

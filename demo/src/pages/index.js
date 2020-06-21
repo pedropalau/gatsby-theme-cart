@@ -9,6 +9,7 @@ export default function IndexPage() {
         nodes {
           id
           name
+          price
         }
       }
     }

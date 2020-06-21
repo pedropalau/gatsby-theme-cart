@@ -6,7 +6,7 @@ export default function Header() {
   const { totalItems, totalUniqueItems } = useCart()
 
   return (
-    <header>
+    <header className="container mx-auto p-6">
       <ul>
         <li>
           <Link to="/">All Products</Link>

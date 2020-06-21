@@ -1,12 +1,12 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 
-import CartItem from './CartItem'
+import CartItem from './cart-item'
 
 function Cart() {
   const { items } = useCart()
 
-  return <div>{items.map(CartItem)}</div>
+  return <div className="cart-item-list">{items.map(CartItem)}</div>
 }
 
 export default Cart
